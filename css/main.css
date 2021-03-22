@@ -1,6 +1,6 @@
 /*
-font-family: 'PT Sans', sans-serif; (bold)
-font-family: 'PT Serif', serif; (regular, italic, bold)
+font-family: "PT Sans", sans-serif; (bold)
+font-family: "PT Serif", serif; (regular, italic, bold)
 Text sizes: 1.5rem, 1.125rem, 0.8rem
 Line height: 1.5
 Colours: #c9b5ab, #8f2440, #222, #3f1622
@@ -40,7 +40,7 @@ header ol {
 
 header ol li {
   display: block;
-  margin: 0 1em;
+  margin: 0 3em;
 }
 
 a {
@@ -60,12 +60,12 @@ img {
 
 figure {
   padding: 0;
-  margin: 0;
+  margin: .8rem;
 }
 
-figcaption{
-  font-family: 'Shippori Mincho B1', serif;
-  font-size: .8em;
+figcaption {
+  font-family: "PT Serif", serif;
+  font-size: 1.125em;
   font-style: italic;
 }
 
@@ -83,13 +83,87 @@ main {
 
 p {
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
+  text-align: left;
 }
 
-datetime {
-
+.time {
+  font-family: "PT Serif", serif;
+  font-size: 1.125em;
+  font-weight: bold;
 }
 
-blockquote {
+.blockquote {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: 1.5rem;
+  font-style: italic;
+}
 
+.chris-footer {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: .8rem;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.common-varieties-list {
+  list-style-type: lower-greek;
+  text-align: left;
+  padding: .3rem;
+  background-color: #c9b5ab;
+  color: #222;
+  font-size: .8em;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
+  margin: 1.5rem;
+}
+
+.serving-size {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: .8rem;
+  text-align: left;
+  font-style: italic;
+}
+
+dt {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: .8rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+dd {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: .8rem;
+  text-align: left;
+  text-indent: .8rem;
+}
+
+.tags-list {
+  list-style-type: disc;
+  text-align: left;
+  padding: .3rem;
+  background-color: #c9b5ab;
+  color: #222;
+  font-size: .8em;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
+  margin: 1.5rem;
+}
+
+.small {
+  font-family: "PT Serif", serif;
+  color: #222;
+  font-size: .8rem;
+  text-align: left;
 }
