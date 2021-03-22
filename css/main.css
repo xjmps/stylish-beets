@@ -9,7 +9,7 @@ Colours: #c9b5ab, #8f2440, #222, #3f1622
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
 }
@@ -35,7 +35,7 @@ header ol {
   color: #8f2440;
   font-size: 1.125em;
   font-weight: normal;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 header ol li {
@@ -43,13 +43,14 @@ header ol li {
   margin: 0 1em;
 }
 
-header a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-header a:hover {
+a:hover {
   color: #8f2440;
+  text-decoration: none;
   border-bottom: 5px solid #22419a;
 }
 
@@ -81,8 +82,8 @@ main {
 }
 
 p {
-  font-family: 'PT Serif', serif;
-  font-size: 0.8rem
+  font-family: "PT Serif", serif;
+  font-size: 0.8rem;
 }
 
 datetime {
