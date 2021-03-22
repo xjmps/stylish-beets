@@ -1,11 +1,10 @@
-Typefaces: PT Sans (bold), PT Serif (regular, italic, bold) — from Google Fonts
+/*
+font-family: 'PT Sans', sans-serif; (bold)
+font-family: 'PT Serif', serif; (regular, italic, bold)
 Text sizes: 1.5rem, 1.125rem, 0.8rem
 Line height: 1.5
 Colours: #c9b5ab, #8f2440, #222, #3f1622
-
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Serif', serif;
-
+*/
 
 
 html {
