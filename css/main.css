@@ -6,10 +6,10 @@ Line height: 1.5
 Colours: #c9b5ab, #8f2440, #222, #3f1622
 */
 
-
 html {
   box-sizing: border-box;
-  font-family: 'PT Serif', sans-serif;
+  background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
   line-height: 1.5;
 }
 
@@ -21,14 +21,36 @@ header {
   background-color: #c9b5ab;
 }
 
-
 h1 {
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
   font-size: 1.5rem;
 }
 
 header ol {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  background-color: #c9b5ab;
+  color: #8f2440;
+  font-size: 1.125em;
+  font-weight: normal;
+  font-family: 'PT Sans', sans-serif;
+}
 
+header ol li {
+  display: block;
+  margin: 0 1em;
+}
+
+header a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #8f2440;
+  border-bottom: 5px solid #22419a;
 }
 
 img {
@@ -48,4 +70,25 @@ figcaption{
 
 main {
   background-color: #c9b5ab;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 60em;
+  margin: 0 auto;
+  background-color: #c9b5ab;
+  padding: 0 1em;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  font-size: 0.8rem
+}
+
+datetime {
+
+}
+
+blockquote {
+
 }
